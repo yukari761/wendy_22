@@ -1,0 +1,48 @@
+header {
+    color: rgb(127, 127, 222);
+}
+
+h1 {
+    color: red;
+
+}
+.background {
+    background-color: lemonchiffon;
+    background-image: url(../ASSETS/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-left: 1rem;
+}
+.grid-division {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.grid-img {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.grid-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.desc {
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(135, 221, 243);
+}
